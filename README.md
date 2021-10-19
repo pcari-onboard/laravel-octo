@@ -16,6 +16,9 @@ $ docker-compose up -d nginx mysql workspace phpmyadmin
 
 ## Phpmyadmin 
 
+When the Phpmyadmin container is active,   
+may access via http://localhost:8081/.   
+
 Default login
 
 ```
@@ -33,3 +36,8 @@ May put it under Xampp or MAMP on Mac OS.
 ## PHP Version requirement
 
 - use php8.0
+
+## `MISSION`
+
+- Rebuild the Movie API [Movie API Postman collection](https://raw.githubusercontent.com/pcari-onboard/laravel-octo/master/Movie%20API.postman_collection.json?token=AB5WC65UEEM3SCHPQ3SYPODBNZZ3A) by using Laravel framework.
+- The Postman collections contains the [Example] response, need to follow as the example response. 
