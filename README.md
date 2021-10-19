@@ -39,5 +39,6 @@ May put it under Xampp or MAMP on Mac OS.
 
 ## `MISSION`
 
+- Fork this repo under your own Github account and make it public.
 - Rebuild the Movie API [Movie API Postman collection](https://raw.githubusercontent.com/pcari-onboard/laravel-octo/master/Movie%20API.postman_collection.json?token=AB5WC65UEEM3SCHPQ3SYPODBNZZ3A) by using Laravel framework.
 - The Postman collections contains the [Example] response, need to follow as the example response. 
