@@ -11,7 +11,17 @@ If your local is installed Docker, may try cli below:
 
 ```
 $ cd laradock
-$ docker-compose up -d nginx mysql workspace
+$ docker-compose up -d nginx mysql workspace phpmyadmin
+```
+
+## Phpmyadmin 
+
+Default login
+
+```
+Server: mysql
+Username: root
+Password: root
 ```
 
 
