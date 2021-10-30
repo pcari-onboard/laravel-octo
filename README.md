@@ -37,8 +37,21 @@ May put it under Xampp or MAMP on Mac OS.
 
 - use php8.0
 
-## `MISSION`
+## `What you need to do?`
 
 - Fork this repo under your own Github account and make it public.
 - Rebuild the Movie API [Movie API Postman collection](https://raw.githubusercontent.com/pcari-onboard/laravel-octo/master/Movie%20API.postman_collection.json?token=AB5WC65UEEM3SCHPQ3SYPODBNZZ3A) by using Laravel framework.
 - The Postman collections contains the [Example] response, need to follow as the example response. 
+- Please pick any database (mysql or mongod) and config it from the Laradock. 
+
+### Definition of Done
+
+- Create API with Laravel. 
+- Create Postman collection with the API created. 
+- API's specs (param & response) works exactly like [Movie API Postman collection](https://raw.githubusercontent.com/pcari-onboard/laravel-octo/master/Movie%20API.postman_collection.json?token=AB5WC65UEEM3SCHPQ3SYPODBNZZ3A)
+
+
+### What is not required?
+
+- Form UI. No form required for this task. 
+
