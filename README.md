@@ -11,6 +11,9 @@ If your local is installed Docker, may try cli below:
 
 ```
 $ cd laradock
+$ cp .env.example .env
+$ edit .env file, change PHP_VERSION to PHP_VERSION=8.0 and 
+$ edit .env file, change WORKSPACE_BASE_IMAGE_TAG_PREFIX to WORKSPACE_BASE_IMAGE_TAG_PREFIX=20220115
 $ docker-compose up -d nginx mysql workspace phpmyadmin
 ```
 
