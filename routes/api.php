@@ -24,6 +24,15 @@ Route::group(array('middleware' => ['custom_auth']), function ()
     Route::post('/token/topup', [TokenController::class, 'store']);
 });
 
+Route::get('test-api', function(){
+    return [
+        'status' => 'ok',
+        'message' => 'Testing API'
+    ];
+});
+
+
+
 
 
 
